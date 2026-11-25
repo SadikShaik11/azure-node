@@ -1,0 +1,12 @@
+# dependencies (installed by npm ci)
+node_modules/
+
+# secrets - never commit
+.env
+.env.*
+
+# build artifact
+app.zip
+
+# OS / editor
+.DS_Store
